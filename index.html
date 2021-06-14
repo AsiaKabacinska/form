@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <title>Formularz :-)</title>
+  </head>
+  <body>
+    <h1>Formularz :-)</h1>
+    <form action="">
+      <p>
+        <label for="name">Twoje imię: </label
+        ><input
+          id="name"
+          type="text"
+          name="name"
+          placeholder="Tu wpisz swoje imię ;)"
+        />
+      </p>
+      <p>
+        <label
+          >Twoje nazwisko:
+          <input type="text" name="second_name" placeholder="a tu nazwisko"
+        /></label>
+      </p>
+      <p>
+          <label for="">Your email: 
+              <input type="email" name="email" placeholder = "Twój email"id="">
+          </label>
+      </p>
+   
+      <p>
+        <label for="">
+            Twój numer telefonu:
+            <input type="tel" id="number" placeholder="Twój numer telefonu" name="" id="" min="0" max="100" step="10">
+        </label>
+    </p>
+    <p>
+        <label for="">
+            Hasło:
+            <input type="password" id="password" name="password" id="password" placeholder="Tu wpisz swoje hasło">
+        </label>
+      </p>
+      <p>
+        <label for="">
+            Wybierz plik:
+            <input type="file" id="file" name="file" id="file">
+        </label>
+      </p>
+    <p>
+        <label for="">
+            Range:
+            <input type="range" id="range" name="range" id="">
+        </label>
+      </p>
+      <fieldset><p>
+          <label for="">Nazwa ulicy: <input name="streetName" type="text"></label></p>
+         <p<label for="">Miasto: <input type="text" name="City" id=""></label></p>
+      </fieldset>
+      <fieldset>
+        <legend>Favourite icecream flavour</legend>
+        <p>
+          <label><input name="iceCream" type="radio" value="chocolate"
+            >Chocolate</label
+          >
+        </p>
+        <p>
+            <label><input name="iceCream" type="radio" value="Strawberry"
+              >Strawberry</label
+            >
+          </p>
+          <p>
+            <label> <input name="iceCream" type="radio" value="Vanilla"
+              >Vanilla</label
+            >
+          </p>
+          <p>
+              <label for="">I agree <input name="agreement" checked value ="agree" type="checkbox"></label>
+          </p>
+          
+
+      </fieldset>
+    </form>
+  </body>
+</html>

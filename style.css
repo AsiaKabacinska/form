@@ -1,0 +1,23 @@
+html{box-sizing: border-box;}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+body{
+  background: rgb(227, 255, 23);
+  background: linear-gradient(
+    101deg,
+    rgba(227, 255, 23, 0.8326681014202556) 0%,
+    rgba(235, 0, 246, 0.8494748241093313) 31%,
+    rgba(191, 48, 48, 1) 67%,
+    rgba(255, 136, 0, 1) 100%
+  );
+}
+h1{
+    text-align: center;
+}
+
+form{
+   display: block;
+   width: 100%;
+   text-align: center;
+}
