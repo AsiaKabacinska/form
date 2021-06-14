@@ -11,13 +11,22 @@ body{
     rgba(191, 48, 48, 1) 67%,
     rgba(255, 136, 0, 1) 100%
   );
+  
 }
 h1{
     text-align: center;
 }
 
 form{
-   display: block;
-   width: 100%;
-   text-align: center;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+
 }
+fieldset{
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+
+} 
+
